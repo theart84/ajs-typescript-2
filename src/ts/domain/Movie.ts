@@ -11,17 +11,19 @@ export default class Movie implements Buyable {
     readonly tagline: string,
     readonly genre: string[],
     readonly timelineInMinutes: number,
-    readonly poster: string
+    readonly poster: string,
+    readonly price: number
   ) {
-    this.id = id
-    this.name = name
-    this.originalName = originalName
-    this.badgeIMAX = badgeIMAX
-    this.year = year
-    this.country = country
-    this.tagline = tagline
-    this.genre = genre
-    this.timelineInMinutes = timelineInMinutes
-    this.poster = poster
+    this.id = id;
+    this.name = name;
+    this.originalName = originalName;
+    this.badgeIMAX = badgeIMAX;
+    this.year = year;
+    this.country = country;
+    this.tagline = tagline;
+    this.genre = genre;
+    this.timelineInMinutes = timelineInMinutes;
+    this.poster = poster;
+    this.price = price;
   }
 }

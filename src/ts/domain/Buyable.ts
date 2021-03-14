@@ -8,5 +8,6 @@ export default interface Buyable {
   readonly tagline: string,
   readonly genre: string[],
   readonly timelineInMinutes: number,
-  readonly poster: string
+  readonly poster: string,
+  readonly price: number
 }
